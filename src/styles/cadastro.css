@@ -9,8 +9,6 @@
   font-family: Arial;
   /* Define a fonte padrão como Arial para todos os elementos */
 }
-
-
 /* Header */
 .header {
   /* Estilo para elementos com classe 'header' */
@@ -23,8 +21,6 @@
   text-align: center;
   /* Centraliza o texto horizontalmente */
 }
-
-
 .container {
   /* Estilo para elementos com classe 'container' */
   max-width: 1100px;
@@ -50,17 +46,6 @@
   margin: 20px 0;
   /* Adiciona 20px de margem no topo e na base */
 }
-
-.card-header {
-  /* Estilo para elementos com classe 'card-header' */
-  display: flex;
-  /* Define o layout como flexbox */
-  justify-content: space-between;
-  /* Distribui espaço entre os elementos, posicionando-os nas extremidades */
-  align-items: center;
-  /* Alinha os itens verticalmente ao centro */
-}
-
 /* Dashboard */
 .products-grid {
   /* Estilo para elementos com classe 'products-grid' */
@@ -72,48 +57,8 @@
   /* Adiciona 20px de margem no topo */
 }
 
-.button-success {
-  /* Estilo para elementos com classe 'button-success' */
-  color: #fff;
-  /* Define a cor do texto como branco */
-  border: none;
-  /* Remove bordas */
-  padding: 10px 20px;
-  /* Adiciona 10px de padding vertical e 20px horizontal */
-  border-radius: 5px;
-  /* Adiciona cantos arredondados */
-  cursor: pointer;
-  /* Muda o cursor para mãozinha ao passar por cima */
-  text-decoration: none;
-  /* Remove sublinhado de links */
-  font-size: 16px;
-  /* Define o tamanho da fonte */
-  background-color: #2ECC71;
-  /* Define a cor de fundo como verde */
-}
-
-.button-hover:hover {
+button {
   /* Estilo para quando o mouse passa sobre elementos com classe 'button-hover' */
   opacity: 0.9;
   /* Reduz levemente a opacidade criando efeito de hover */
-}
-
-.button-logout {
-  /* Estilo para elementos com classe 'button-logout' */
-  color: #fff;
-  /* Define a cor do texto como branco */
-  border: none;
-  /* Remove bordas */
-  padding: 10px 20px;
-  /* Adiciona 10px de padding vertical e 20px horizontal */
-  border-radius: 5px;
-  /* Adiciona cantos arredondados */
-  cursor: pointer;
-  /* Muda o cursor para mãozinha ao passar por cima */
-  text-decoration: none;
-  /* Remove sublinhado de links */
-  font-size: 16px;
-  /* Define o tamanho da fonte */
-  background-color: #E74C3C;
-  /* Define a cor de fundo como vermelho */
 }
